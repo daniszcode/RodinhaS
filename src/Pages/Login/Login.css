@@ -1,0 +1,93 @@
+.container-login{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-login--main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #05102F;
+}
+.container-login--header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image-login--girlmap{
+    width: 299px;
+    height: 186px;
+    margin: 26px 31px 0 84px;
+}
+.image-login--girlsit {
+    width: 115px;
+    height: 156px;
+    margin: -81px 0px 0px 20px;
+}
+.container-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -48px 0px 0px 15px;
+}
+.box-text--logo{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.span-h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: #E2508C;
+    margin: 31px 0px 0px 0px;
+}
+.second-box-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box-text--login{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: -192px 0px 0px 155px;
+    font-weight: 500;
+}
+.span-h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    color: #E2508C;
+    padding: -61px 0px 0px 231px;
+}
+.container-box--input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.hr-input--user{
+    width: 264px;
+}
+.hr-input--password{
+    width: 264px;
+} 
+ 
