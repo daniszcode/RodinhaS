@@ -1,7 +1,7 @@
-import "./App.css";
+import Routes from "./Routes";
 
 function App() {
-  return <h1 className="Text-Logo">Oi</h1>;
+  return <Routes />;
 }
 
 export default App;
