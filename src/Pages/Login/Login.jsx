@@ -19,14 +19,18 @@ const Login = () => {
                     <h2 className="box-text--login">Logi</h2><span className="span-h2">n</span>
                     </div>
                 </section>
-                <div className="container-box--input">
+                <footer className="container-box--input">
+                    <div className="box-input--user--pass">
                     <input className="input-user" type="text" name="user" id="user" placeholder="usuario"/>
                     <hr className="hr-input--user" />
                     <input className="input-password" type="text" name="password" id="password" placeholder="senha"/>
                     <hr className="hr-input--password" />
+                    </div>
+                    <div className="box-button--small" >
                     <small className="small-text">CADASTRE-SE</small>
                     <button className="container-box--button">Entrar</button>
-                </div>
+                    </div>
+                </footer>
             </main>
         </body>
         </>

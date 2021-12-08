@@ -20,7 +20,7 @@
 .image-login--girlmap{
     width: 299px;
     height: 186px;
-    margin: 26px 31px 0 84px;
+    margin: 45px 31px 0 84px;
 }
 .image-login--girlsit {
     width: 115px;
@@ -32,6 +32,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    
 }
 .box-section--text{
     width: 100%;
@@ -39,7 +40,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: -48px 0px 0px 15px;
+    margin: -50px 0px 0px 15px;
 }
 .box-text--logo{
     font-family: 'Poppins', sans-serif;
@@ -61,6 +62,9 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -310px 0px 0px -4px;
 }
 .box-text--login{
     font-family: 'Poppins', sans-serif;
@@ -68,7 +72,6 @@
     font-size: 38px;
     line-height: 60px;
     color: #FFFFFF;
-    padding: -192px 0px 0px 155px;
     font-weight: 500;
 }
 .span-h2{
@@ -76,19 +79,68 @@
     font-style: normal;
     font-size: 40px;
     color: #E2508C;
-    padding: -61px 0px 0px 231px;
+    margin: -92px 0px 98px 96px;
 }
 .container-box--input{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    margin: -198px 0px 0px 0px;
+}
+.box-input--user--pass{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-user{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+
+}
+.input-password{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
 }
 .hr-input--user{
     width: 264px;
+    background-color: #FFFFFF;
 }
 .hr-input--password{
     width: 264px;
+    background-color: #FFFFFF;
+
 } 
+.box-button--small{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -236px 0px 0px 0px;
+    gap: 27px;
+}
+.small-text{
+    color: #FFFFFF;
+    margin: -63px -174px 21px 0px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.container-box--button{
+    width: 246px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    background-color: #E2508C;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
  
