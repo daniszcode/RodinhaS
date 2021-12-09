@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </section>
                 <footer className="container-footer---box">
-                <div className="footer---box">
+                <div className="box-footer---box">
                     <ButtonPink>Ver Ranking</ButtonPink>
                 </div>
                 </footer>
