@@ -9,12 +9,12 @@ const Home = () => {
         <body className="container-main">
             <main className="container-main---box">
             <header className="container-header---box" >
-                <div>
-                <ArrowIcon />
+                <div className="box-header---image">
+                <ArrowIcon  />
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit"  />
                 </div>
-                <div>
-                    <input type="text" name="" id="" placeholder="Digite o nome do local" />
+                <div className="box-header---input">
+                    <input className="box--input" type="text" name="" id="" placeholder="Digite o nome do local" />
                 </div>
             </header>
             <section className="container-section---box">
@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </section>
                 <footer className="container-footer---box">
-                <div className="box-footer---box">
+                <div className="footer---box">
                     <ButtonPink>Ver Ranking</ButtonPink>
                 </div>
                 </footer>
