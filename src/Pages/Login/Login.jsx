@@ -1,6 +1,7 @@
 import ImageOne from "../../Assets/girl-sit.svg"
 import ImageTwo from "../../Assets/girl-map.svg"
 import "./Login.css"
+import { ButtonPink } from "../../Components/Button/Button"
 
 const Login = () => {
     return (
@@ -28,7 +29,7 @@ const Login = () => {
                     </div>
                     <div className="box-button--small" >
                     <small className="small-text">cadastre-se</small>
-                    <button className="container-box--button">Entrar</button>
+                    <ButtonPink>Entrar</ButtonPink>
                     </div>
                 </footer>
             </main>
