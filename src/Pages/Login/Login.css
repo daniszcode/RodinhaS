@@ -131,8 +131,8 @@
     color: #FFFFFF;
     margin: -63px -174px 21px 0px;
     font-family: 'Poppins', sans-serif;
-
-
+    text-transform: uppercase;
+    font-weight: 0.5rem;
 }
 .container-box--button{
     width: 246px;

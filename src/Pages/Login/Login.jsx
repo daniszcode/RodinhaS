@@ -27,7 +27,7 @@ const Login = () => {
                     <hr className="hr-input--password" />
                     </div>
                     <div className="box-button--small" >
-                    <small className="small-text">CADASTRE-SE</small>
+                    <small className="small-text">cadastre-se</small>
                     <button className="container-box--button">Entrar</button>
                     </div>
                 </footer>
