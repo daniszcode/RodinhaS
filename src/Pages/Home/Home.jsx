@@ -1,3 +1,4 @@
+import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon"
 import { ButtonPink } from "../../Components/Button/Button"
 import { LogoImg } from "../../Components/Logo/Logo"
 import "./Home.css"
@@ -5,11 +6,11 @@ import "./Home.css"
 const Home = () => {
     return (
         <>
-        <h1>Home</h1>
         <body>
             <main>
             <header>
                 <div>
+                <ArrowIcon />
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit"  />
                 </div>
                 <div>
