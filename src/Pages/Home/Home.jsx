@@ -1,4 +1,6 @@
 import { ButtonPink } from "../../Components/Button/Button"
+import { LogoImg } from "../../Components/Logo/Logo"
+import "./Home.css"
 
 const Home = () => {
     return (
@@ -8,8 +10,7 @@ const Home = () => {
             <main>
             <header>
                 <div>
-                    <img src="" alt=""></img>
-                    <img src="" alt=""></img>
+                <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit"  />
                 </div>
                 <div>
                     <input type="text" name="" id="" />

@@ -1,7 +1,6 @@
-import ImageOne from "../../Assets/girl-sit.svg"
-import ImageTwo from "../../Assets/girl-map.svg"
 import "./Login.css"
 import { ButtonPink } from "../../Components/Button/Button"
+import { LogoImg } from "../../Components/Logo/Logo"
 
 const Login = () => {
     return (
@@ -9,8 +8,7 @@ const Login = () => {
         <body className="container-login"> 
             <main className="container-login--main">
                 <header className="container-login--header">
-                    <img className="image-login--girlmap" src={ImageTwo} alt="girl with the map" />
-                    <img className="image-login--girlsit" src={ImageOne} alt="girl sitting in the wheelchair" />
+                   <LogoImg imageGirlmap="image-login--girlmap" imageGirlsit="image-login--girlsit" />
                 </header>
                 <section className="container-section--text">
                     <div className="box-section--text">
