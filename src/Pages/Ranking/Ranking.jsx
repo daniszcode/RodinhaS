@@ -1,5 +1,7 @@
 import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon";
+import { Icon } from "../../Components/Icon/icon";
 import { LogoImg } from "../../Components/Logo/Logo";
+import { Stars } from "../../Components/StarsIcon/StarsIcon";
 
 const Ranking = () => {
     return (
@@ -18,9 +20,9 @@ const Ranking = () => {
                     </div>
                 </header>
                 <section>
-                    <div><img src="" alt="" /></div>
-                    <div></div>
-                    <div></div>
+                    <div><Icon /><Stars />  </div>
+                    <div><Icon /><Stars />  </div>
+                    <div><Icon /><Stars />  </div>
                 </section>
                 <footer>
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit" />
