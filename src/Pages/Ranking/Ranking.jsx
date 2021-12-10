@@ -2,11 +2,12 @@ import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon";
 import { Icon } from "../../Components/Icon/icon";
 import { LogoImg } from "../../Components/Logo/Logo";
 import { Stars } from "../../Components/StarsIcon/StarsIcon";
+import "./Ranking.css"
 
 const Ranking = () => {
     return (
         <>
-        <body className="container-login">
+        <body className="container-ranking">
             <main className="container-main">
                 <nav className="container-main--nav">
                     <ArrowIcon />
@@ -14,11 +15,12 @@ const Ranking = () => {
                 <header className="container-main--header">
                     <div className="container-box--text">
                         <div className="container-box--icon" >
-                        <Icon />
+                        <Icon imageGirlInwheelchair="icon-container--header" />
+                        <h1 className="ranking-box--h1" >Rankin<span className="span-h1-ranking" >g</span></h1>
                         </div>
-                        <div className="container-text" > </div>
-                        <h1>Rankin<span className="span-h1" >g</span></h1>
+                        <div className="container-text--h2" > 
                         <h2>Passeios acessiveis</h2>
+                        </div>
                     </div>
                 </header>
                 <section className="container-main--section" >
