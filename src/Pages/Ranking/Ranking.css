@@ -37,3 +37,34 @@
     height: 9rem;
      
 }
+.ranking-box--h2 {
+    margin: -30px 0px 0px 111px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #F06FA4;
+}
+.container-main--section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-box--section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.StarIconClass {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 50px 3px;
+}
+.icon-container--section {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 34px 20px;
+
+}
+
