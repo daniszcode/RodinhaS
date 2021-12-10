@@ -6,25 +6,27 @@ import { Stars } from "../../Components/StarsIcon/StarsIcon";
 const Ranking = () => {
     return (
         <>
-        <body>
-            <h1>Ranking</h1>
-            <main>
-                <nav>
+        <body className="container-login">
+            <main className="container-main">
+                <nav className="container-main--nav">
                     <ArrowIcon />
                 </nav>
-                <header>
-                    <div>
-                        <img src="" alt="" />
+                <header className="container-main--header">
+                    <div className="container-box--text">
+                        <div className="container-box--icon" >
+                        <Icon />
+                        </div>
+                        <div className="container-text" > </div>
                         <h1>Rankin<span className="span-h1" >g</span></h1>
                         <h2>Passeios acessiveis</h2>
                     </div>
                 </header>
-                <section>
-                    <div><Icon /><Stars />  </div>
-                    <div><Icon /><Stars />  </div>
-                    <div><Icon /><Stars />  </div>
+                <section className="container-main--section" >
+                    <div className="container-box--section"><Icon /><Stars />  </div>
+                    <div className="container-box--section"><Icon /><Stars />  </div>
+                    <div className="container-box--section"><Icon /><Stars />  </div>
                 </section>
-                <footer>
+                <footer className="container-main--footer" >
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit" />
                 </footer>
             </main>
