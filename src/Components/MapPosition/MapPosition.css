@@ -1,0 +1,8 @@
+.div-map {
+    display: flex;
+    width: 50%;
+    height: 50vh;
+}
+.Edit {
+    content: url("../../Assets/woman-in-motorized-wheelchair.svg")
+}
