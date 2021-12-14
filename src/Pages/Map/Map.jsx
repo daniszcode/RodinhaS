@@ -5,22 +5,22 @@ const Map = () => {
     return (
         <>   
         <body>
-            <main>
-                <header>
-                    <div>
+            <main className="container-main--map">
+                <header className="container-header--map">
+                    <div className="box-header--map">
                         <ArrowIcon />
                     </div>
-                    <div>
+                    <div className="box-header">
                         <Icon />
-                        <h1>Como Chegar</h1>
-                </div>
+                        <h1 className="box-header--text">Com<span className="box-header--span">o</span> Chega<span>r</span></h1>
+                    </div>
                 </header>
-                <section>
-                <MapPosition  />
+                <section className="container-section--map">
+                    <MapPosition  />
                 </section>
-                <footer>
+                <footer className="container-footer--map">
                     <Icon />
-                    <p>Indica sua localização</p>
+                    <p className="box-header--paragraph">Indica sua localização</p>
                 </footer>
             </main>
         </body>
