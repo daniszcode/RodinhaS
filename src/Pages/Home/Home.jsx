@@ -1,6 +1,7 @@
 import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon"
 import { ButtonPink } from "../../Components/Button/Button"
 import { LogoImg } from "../../Components/Logo/Logo"
+import { UniqueReq } from "../../Components/Req/Req"
 import "./Home.css"
 
 const Home = () => {
@@ -22,10 +23,7 @@ const Home = () => {
                     <h1 className="box-text--logo">Sugestõe<span className="span-h1">s</span></h1>
                 </div>
                 <div className="box-section---list">
-                <ul className="box-section---ul">
-                    <li className="box-li---option">Foto api</li>
-                    <li className="box-li---option">Foto api</li>
-                </ul>
+                <UniqueReq />
                 </div>
             </section>
                 <footer className="container-footer---box">

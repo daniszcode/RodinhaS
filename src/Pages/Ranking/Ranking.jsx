@@ -1,7 +1,6 @@
 import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon";
 import { Icon } from "../../Components/Icon/icon";
-import { LogoImg } from "../../Components/Logo/Logo";
-import { Stars } from "../../Components/StarsIcon/StarsIcon";
+import { Req } from "../../Components/Req/Req";
 import "./Ranking.css"
 
 const Ranking = () => {
@@ -24,13 +23,9 @@ const Ranking = () => {
                     </div>
                 </header>
                 <section className="container-main--section" >
-                    <div className="container-box--section"><div>Retorno API</div><Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>  </div>
-                    <div className="container-box--section"><div>Retorno API</div><Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>  </div>
-                    <div className="container-box--section"><div>Retorno API</div><Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>  </div>
+                    <div ><Req /></div>
+                    
                 </section>
-                <footer className="container-main--footer" >
-                <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit" />
-                </footer>
             </main>
         </body>
         </>
