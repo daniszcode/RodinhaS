@@ -20,7 +20,7 @@ const Map = () => {
                     <MapPosition  />
                 </section>
                 <footer className="container-footer--map">
-                    <Icon />
+                    <Icon imageGirlInwheelchair="box-header--iconGirl" />
                     <p className="box-header--paragraph">Indica sua localização</p>
                 </footer>
             </main>
