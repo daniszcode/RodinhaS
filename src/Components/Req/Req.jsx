@@ -20,7 +20,9 @@ const Req = () => {
                 <div className="container-ul--req">
                     <img className="img--req"  src={url} alt={title} /> 
                     <h1 className="option--req" key={id}> {title} </h1>
+                    <div className="container-icons">
                     <Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>
+                    </div>
                 </div>
             )}
         </section>
