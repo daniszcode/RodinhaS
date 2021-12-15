@@ -1,12 +1,6 @@
 
 ![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png)
 
-
-
-
-
-
-
 ## FAQ
 
 #### O que é o projeto?
@@ -16,18 +10,12 @@ Inicialmente mapearemos locais para passeios infantis, posteriormente será ampl
 
 
 ## Plataforma
-![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Tela.png
-)
+![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Tela.png)
 
 Essa é nossa tela de login do usuário da aplicação. Para conhecer as demais telas da aplicação, acesse: RodinhaS.
 
 ## Tecnologia
 A aplicação foi desenvolvida em React.Js. Onde utilizei algumas libs, como:
-
-
-
-
-
 
 
 
