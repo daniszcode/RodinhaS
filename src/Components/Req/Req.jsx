@@ -15,17 +15,13 @@ const Req = () => {
    
     return (
         <>
-        <section>
+        <section className="container-section--req">
             {local.map(({ id, title, url }) => 
-                <ul className="container-ul--req">
-                    <li ><h1 className="option--req" key={id}> {title} </h1>
-                    
-                    </li>
+                <div className="container-ul--req">
                     <img className="img--req"  src={url} alt={title} /> 
-                    <div >
-                        <Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>
-                        </div>
-                </ul>
+                    <h1 className="option--req" key={id}> {title} </h1>
+                    <Icon imageGirlInwheelchair="icon-container--section"  /><Stars ClassStar="StarIconClass"/>
+                </div>
             )}
         </section>
         </>

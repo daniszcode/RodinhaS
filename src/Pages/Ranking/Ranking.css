@@ -7,6 +7,7 @@
 .container-main--header{
     width: 100%;
     height: 100vh;
+    margin: -20px 0px;
 }
 .container-main {
     width: 100%;
@@ -14,6 +15,12 @@
     display: flex;
     flex-direction: column;
 
+}
+.container-text--h2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: -50px 0px 0px 96px;
 }
 .container-box--icon {
     width: 100%;
@@ -42,7 +49,6 @@
      
 }
 .ranking-box--h2 {
-    margin: -30px 0px 0px 111px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;

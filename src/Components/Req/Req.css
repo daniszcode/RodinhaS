@@ -5,7 +5,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 43px 0px;
     background-color: #05102F;
 
     
@@ -17,16 +16,14 @@
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    justify-content: center;
-    margin: -40px -14px;
-    gap: 13px;
 }
 .img--req {
-    width: 332px;
+    width: 200px;
     height: 118px;
     border-radius: 12px;
     box-shadow: 0px 1px 12px rgb(235 44 91);
     object-fit: cover;
+    margin: 10px 77px;
 
 }
 .option--req {
@@ -35,10 +32,7 @@
     font-weight: bold;
     font-size: 1rem;
     color:#F06FA4;
-    text-decoration: none;
-    list-style: none;
     text-align: center;
-    margin: 5px -13px;
 }
 .icon-container--section {
     width: 4.5rem;
@@ -50,4 +44,10 @@
     width: 1.5rem;
     height: 1.5rem;
     padding: 50px 3px;
+}
+.section-req {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
