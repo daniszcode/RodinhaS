@@ -1,6 +1,7 @@
 import "./Login.css"
 import { ButtonPink } from "../../Components/Button/Button"
 import { LogoImg } from "../../Components/Logo/Logo"
+import { Link } from "react-router-dom"
 
 const Login = () => {
     return (
@@ -27,7 +28,7 @@ const Login = () => {
                     </div>
                     <div className="box-button--small" >
                     <small className="small-text">cadastre-se</small>
-                    <ButtonPink>Entrar</ButtonPink>
+                 <Link to="/home"><ButtonPink>Entrar</ButtonPink> </Link>   
                     </div>
                 </footer>
             </main>

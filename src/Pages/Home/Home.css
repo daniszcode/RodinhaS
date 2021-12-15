@@ -64,7 +64,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: self-end;
 }
 .box-section---text {
     width: 100%;

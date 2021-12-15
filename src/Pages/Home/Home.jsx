@@ -3,7 +3,7 @@ import { ButtonPink } from "../../Components/Button/Button"
 import { LogoImg } from "../../Components/Logo/Logo"
 import { UniqueReq } from "../../Components/Req/Req"
 import "./Home.css"
-
+import { Link } from "react-router-dom"
 const Home = () => {
     return (
         <>
@@ -11,7 +11,7 @@ const Home = () => {
             <main className="container-main---box">
             <header className="container-header---box" >
                 <div className="box-header---image">
-                <ArrowIcon  />
+             <Link to="/login"><ArrowIcon  /></Link>   
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit"  />
                 </div>
                 <div className="box-header---input">
@@ -23,12 +23,12 @@ const Home = () => {
                     <h1 className="box-text--logo">Sugestõe<span className="span-h1">s</span></h1>
                 </div>
                 <div className="box-section---list">
-                <UniqueReq />
+                <Link to="/map"> <UniqueReq /> </Link>
                 </div>
             </section>
                 <footer className="container-footer---box">
                 <div className="box-footer---box">
-                    <ButtonPink>Ver Ranking</ButtonPink>
+                <Link to="/ranking"> <ButtonPink>Ver Ranking</ButtonPink></Link>
                 </div>
                 </footer>
             </main>

@@ -43,13 +43,11 @@ const UniqueReq = () => {
         <>
         <section className="container-section--req">
             {local.map(({ id, title, url }) => id === 1 &&
-                <ul className="container-ul--req">
-                    <li className="option--req" key={id}>
-                    {title}
-                    </li>
-                    <img className="img--req"  src={url} alt={title} />
-                </ul>
-            )}
+            <div className="container-ul--req">
+                <img className="img--req"  src={url} alt={title} /> 
+                <h1 className="option--req" key={id}> {title} </h1>
+            </div>
+        )}
         </section>
         </>
     )

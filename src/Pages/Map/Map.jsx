@@ -2,6 +2,7 @@ import { MapPosition } from "../../Components/MapPosition/MapPosition";
 import { ArrowIcon } from "../../Components/ArrowIcon/ArrowIcon"
 import { Icon } from "../../Components/Icon/icon";
 import "./Map.css"
+import { Link } from "react-router-dom";
 const Map = () => {
     return (
         <>   
@@ -9,7 +10,7 @@ const Map = () => {
             <main className="container-main--map">
                 <header className="container-header--map">
                     <div className="box-header--map">
-                        <ArrowIcon />
+                     <Link to="/home"> <ArrowIcon /> </Link>   
                     </div>
                     <div className="box-header">
                         <Icon imageGirlInwheelchair="box-header--iconGirl" />
