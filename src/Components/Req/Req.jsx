@@ -18,8 +18,8 @@ const Req = () => {
         <section>
             {local.map(({ id, title, url }) => 
                 <ul className="container-ul--req">
-                    <li className="option--req" key={id}>
-                    {title}
+                    <li ><h1 className="option--req" key={id}> {title} </h1>
+                    
                     </li>
                     <img className="img--req"  src={url} alt={title} /> 
                     <div >
