@@ -12,7 +12,7 @@ DISPONIVEL APENAS PARA MOBILE. Versão web em construção!
 ## Plataforma
 ![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Tela.png)
 
-Essa é nossa tela de login do usuário da aplicação. Para conhecer as demais telas da aplicação, acesse: RodinhaS.
+Essa é nossa tela de login do usuário da aplicação. Para conhecer as demais telas da aplicação, acesse: [RodinhaS](https://rodinha-s.vercel.app/).
 
 ## Tecnologia
 A aplicação foi desenvolvida em React.Js. Onde utilizei algumas libs, como:
