@@ -11,7 +11,7 @@ const Home = () => {
             <main className="container-main---box">
             <header className="container-header---box" >
                 <div className="box-header---image">
-             <Link to="/login"><ArrowIcon  /></Link>   
+             <Link to="/"><ArrowIcon  /></Link>   
                 <LogoImg imageGirlmap="image-home--girlmap" imageGirlsit="image-home--girlsit"  />
                 </div>
                 <div className="box-header---input">

@@ -1,8 +1,3 @@
-@media (min-width: 700px) {
-    .container-login {
-
-    }
-}
 .container-login{
     padding: 0;
     margin: 0;
@@ -15,6 +10,7 @@
     flex-direction: column;
     background-color: #05102F;
 }
+
 
 
 .container-login--header{
@@ -41,15 +37,7 @@
     flex-direction: column;
     
 }
-@media (min-width: 700px) {
-    .container-section--text{
-    background-color: tomato;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    }
-}
+
 .box-section--text{
     width: 100%;
     height: 100%;
@@ -161,3 +149,19 @@
     border-radius: 12px;
 }
  
+@media (min-width: 450px) {
+    .container-login--main {
+
+        background: url(../../Assets/Error.svg) 30% no-repeat;
+        background-size: cover;
+    }
+.container-login--header {
+    display: none;
+}
+.container-section--text{
+    display: none;
+}
+.box-button--small{
+    display: none;
+}
+}
