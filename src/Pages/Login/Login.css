@@ -1,4 +1,8 @@
+@media (min-width: 700px) {
+    .container-login {
 
+    }
+}
 .container-login{
     padding: 0;
     margin: 0;
@@ -11,12 +15,15 @@
     flex-direction: column;
     background-color: #05102F;
 }
+
+
 .container-login--header{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .image-login--girlmap{
     width: 299px;
     height: 186px;
@@ -33,6 +40,15 @@
     display: flex;
     flex-direction: column;
     
+}
+@media (min-width: 700px) {
+    .container-section--text{
+    background-color: tomato;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
 }
 .box-section--text{
     width: 100%;
@@ -88,6 +104,7 @@
     flex-direction: column;
     margin: -198px 0px 0px 0px;
 }
+
 .box-input--user--pass{
     width: 100%;
     height: 100%;
