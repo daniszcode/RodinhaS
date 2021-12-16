@@ -152,7 +152,7 @@
 @media (min-width: 450px) {
     .container-login--main {
 
-        background: url(../../Assets/Error.svg) 30% no-repeat;
+        background: url('../../Assets/Error.svg') 30% no-repeat;
         background-size: cover;
     }
 .container-login--header {
