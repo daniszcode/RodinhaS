@@ -7,7 +7,7 @@
 
 Uma plataforma que tem o objetivo de guiar pessoas com alguma dificuldade de locomoção a locais com acessibilidade.
 Inicialmente mapearemos locais para passeios infantis, posteriormente será ampliado par outros públicos.
-
+DISPONIVEL APENAS PARA MOBILE. Versão web em construção!
 
 ## Plataforma
 ![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Tela.png)
