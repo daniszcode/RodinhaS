@@ -5,18 +5,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #05102F;
-
-    
+    background-color: #05102F;   
 
 }
-.container-icons {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin: -18px 0px 0px 56px;
 
-}
 .container-ul--req {
     width: 100%;
     height: 100%;
@@ -28,9 +20,8 @@
     width: 200px;
     height: 118px;
     border-radius: 12px;
-    box-shadow: 0px 1px 12px rgb(235 44 91);
     object-fit: cover;
-    margin: 10px 77px;
+    margin: 10px 7px;
 
 }
 .option--req {
@@ -42,17 +33,8 @@
     text-align: center;
 
 }
-.icon-container--section {
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 34px 20px;
 
-}
-.StarIconClass {
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: 50px 3px;
-}
+
 .section-req {
     display: flex;
     flex-direction: column;
