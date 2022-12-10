@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png)
+![Logo] <p align="center">(https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png)</p>
 
 ## FAQ
 
