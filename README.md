@@ -1,7 +1,6 @@
 
-![Logo] <p align="center">
-   <img src="https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png alt="Sublime's custom image"/>
- </p>
+![Logo] (https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png)
+
 
 ## FAQ
 
