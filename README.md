@@ -1,6 +1,6 @@
 
 ![Logo] <p align="center">
-   <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true alt="Sublime's custom image"/>
+   <img src="https://raw.githubusercontent.com/daniszcode/RodinhaS/main/src/Assets/Component%201.png alt="Sublime's custom image"/>
  </p>
 
 ## FAQ
