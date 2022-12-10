@@ -17,7 +17,17 @@ Essa é nossa tela de login do usuário da aplicação. Para conhecer as demais 
 ## Tecnologia
 A aplicação foi desenvolvida em React.Js. Onde utilizei algumas libs, como:
 
-
-
  - [React-Router-Dom]()
  - [Google Maps API]()
+
+## Instale as dependencias:
+
+npm install
+
+## Rodar aplicação :
+
+yarn start
+
+## Rodar testes :
+
+yarn test
