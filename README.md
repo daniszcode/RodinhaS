@@ -23,7 +23,7 @@ A aplicação foi desenvolvida em React.Js. Onde utilizei algumas libs, como:
 
 ## Instale as dependencias:
 
-npm install
+yarn install
 
 ## Rodar aplicação :
 
