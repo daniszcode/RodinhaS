@@ -1,9 +1,9 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Login } from "./Pages/Login/Login";
-import { Home } from "./Pages/Home/Home";
-import { Ranking } from "./Pages/Ranking/Ranking";
-import { Map } from "./Pages/Map/Map";
-
+import { Login } from "./Page/Login/Login";
+import { Home } from "./Page/Home/Home";
+import { Ranking } from "./Page/Ranking/Ranking";
+import { Map } from "./Page/Map/Map";
+import { CadastroPage } from "./Page/Cadastro/Cadastro";
 function Routes() {
   return (
     <BrowserRouter>
@@ -12,6 +12,7 @@ function Routes() {
         <Route path="/home" component={Home} />
         <Route path="/ranking" component={Ranking} />
         <Route path="/map" component={Map} />
+        <Route path="/cadastroPage" component={CadastroPage} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,0 +1,185 @@
+.container-CadastroPage{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-CadastroPage--main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #05102F;
+}
+
+
+
+.container-CadastroPage--header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-CadastroPage--girlmap{
+    width: 299px;
+    height: 186px;
+    margin: 45px 31px 0 84px;
+}
+.image-CadastroPage--girlsit {
+    width: 115px;
+    height: 156px;
+    margin: -81px 0px 0px 20px;
+}
+.container-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -50px 0px 0px 15px;
+}
+.box-text--logo{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.span-h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: #E2508C;
+    margin: 31px 0px 0px 0px;
+}
+.second-box-section--text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -310px 0px 0px -4px;
+}
+.box-text--login{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.span-h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    color: #E2508C;
+    margin: -92px 0px 98px 96px;
+}
+.container-box--input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: -198px 0px 0px 0px;
+}
+
+.box-input--user--pass{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-rua{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+
+}
+.input-complemento{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+}
+.input-cep{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+}
+.input-cidade{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+}
+.input-estado{
+    background: transparent;
+    border: none;
+    padding: 10px 0px 0px 73px;
+    color: #FFFFFF;
+}
+.hr-input--rua{
+    width: 264px;
+    background-color: #FFFFFF;
+}
+.hr-input--password{
+    width: 264px;
+    background-color: #FFFFFF;
+
+} 
+.box-button--small-cadastro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -16px 0px 0px 0px;
+        gap: 27px;
+}
+.small-text{
+    color: #FFFFFF;
+    margin: -63px -174px 21px 0px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 0.5rem;
+}
+.container-box--button{
+    width: 246px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    background-color: #E2508C;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+ 
+@media (min-width: 450px) {
+    .container-login--main {
+
+        background: url('../../Assets/Error.svg') 30% no-repeat;
+        background-size: cover;
+    }
+.container-login--header {
+    display: none;
+}
+.container-section--text{
+    display: none;
+}
+.box-button--small{
+    display: none;
+}
+}
