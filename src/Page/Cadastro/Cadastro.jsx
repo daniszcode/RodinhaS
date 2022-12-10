@@ -80,7 +80,7 @@ const CadastroPage = () => {
                 <hr className="hr-input--user" />
               </div>
               <div className="box-button--small-cadastro">
-                <ButtonPink onClick={console.log(instanciaCadastro.endereco)}>
+                <ButtonPink onClick={console.log(instanciaCadastro)}>
                   Enviar
                 </ButtonPink>
               </div>

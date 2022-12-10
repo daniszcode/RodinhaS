@@ -3,13 +3,13 @@ import { Endereco } from "./Endereco";
 
 export class Cadastro {
   id;
-  creadoEm;
+  criadoEm;
   atualizadoEm;
   endereco = Endereco;
   constructor(endereco) {
     this.id = v4();
-    this.creadoEm = new Date();
-    this.atualizadoEm = new Date();
+    this.criadoEm = new Date().toLocaleString();
+    this.atualizadoEm = new Date().toLocaleString();
     this.endereco = endereco;
   }
 }
