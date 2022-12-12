@@ -21,14 +21,14 @@ A aplicação foi desenvolvida em React.Js. Onde utilizei algumas libs, como:
  - [React-Router-Dom]()
  - [Google Maps API]()
 
-## Instale as dependencias:
+## Instale as dependencias
 
 yarn install
 
-## Rodar aplicação :
+## Rodar aplicação 
 
 yarn start
 
-## Rodar testes :
+## Rodar testes 
 
 yarn test
